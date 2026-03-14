@@ -459,3 +459,58 @@ footer {
         margin-bottom: 15px;
     }
 }
+/* Section présentation */
+.presentation{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Titre */
+.presentation h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #d4af37;
+}
+
+/* Paragraphes */
+.presentation p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* Vidéo */
+.presentation iframe{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 10px;
+}
+
+/* Style pour téléphone */
+@media (max-width: 768px){
+
+    .presentation{
+        padding: 15px;
+    }
+
+    .presentation h1{
+        font-size: 24px;
+    }
+
+    .presentation p{
+        font-size: 16px;
+    }
+
+    .presentation iframe{
+        width: 100%;
+        height: 200px;
+    }
+}
